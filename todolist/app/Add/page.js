@@ -47,7 +47,7 @@ const page = () => {
             </div>
             <div className={style.inp_todo}>
               <label>Task Name</label>
-              <input type='text' placeholder='Enter Task' onChange={add_todo}/>
+              <input type='text' placeholder='Enter Task' onChange={add_todo} required/>
             </div>
             <div className={style.inp_lvl}>
               <label>Add Level</label>

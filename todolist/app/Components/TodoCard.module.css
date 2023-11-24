@@ -1,0 +1,48 @@
+.main{
+    margin-top: 30px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    /* justify-content: space-between; */
+}
+.main > div{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.main .info{
+    flex: 4;
+    display: flex;
+    align-items: center;
+}
+.info h1{
+    flex: 3;
+    font-weight: 500;
+    color: #808080;
+}
+.info h3{
+    flex: 1;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.info p{
+    flex: 1;
+}
+.main .icons{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.icons *{
+    flex: 1;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+.icons *:hover{
+    font-size: 1.7rem;
+}

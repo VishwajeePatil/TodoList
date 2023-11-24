@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "server":"nodemon ./Backend/server.js",
+    "server": "nodemon ./Backend/server.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -16,6 +16,7 @@
     "mongoose": "^8.0.1",
     "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-icons": "^4.12.0"
   }
 }

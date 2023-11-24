@@ -1,5 +1,6 @@
 .main{
     background-color: #28839F;
+    background-image: radial-gradient( circle farthest-corner at -5.7% -16.7%,  rgba(0,249,243,1) 0%, rgba(14,113,159,1) 90% );
     height: 70px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
