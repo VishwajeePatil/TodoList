@@ -1,0 +1,40 @@
+.main{
+    background-color: #28839F;
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.main > div {
+    justify-content: space-between;
+}
+.main .main_logo{
+    height: 80%;
+    aspect-ratio: 1/1;
+}
+.main .links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.link{
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #113642;
+    font-weight: 500;
+    cursor:pointer;
+    transition: 0.3s ease-in-out;
+}
+.link:hover{
+    color: #ffffff;
+}
+.main h1{
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #dadada;
+}
+@media screen and (max-width:761px) {
+    .main h1{
+        display: none;
+    }
+}
